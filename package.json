@@ -1,0 +1,23 @@
+{
+  "name": "fcc-image-search-abstraction",
+  "version": "1.0.0",
+  "description": "Given a search term, return a list of images related to it, with urls and alt text",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/templetonpr/fcc-image-search-abstraction.git"
+  },
+  "author": "Patrick Templeton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/templetonpr/fcc-image-search-abstraction/issues"
+  },
+  "homepage": "https://github.com/templetonpr/fcc-image-search-abstraction#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "pg": "^4.5.5"
+  }
+}
