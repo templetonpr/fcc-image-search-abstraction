@@ -1,12 +1,14 @@
 "use strict";
 
+let pg      = require('pg');
+let morgan  = require('morgan');
 let express = require('express');
-let pg = require('pg');
 
 // Express config
 let app = express();
 app.disable('x-powered-by');
 app.use(express.static('public'));
+app.use(morgan('short'));
 
 // port
 let port = process.env.PORT || 8080;
